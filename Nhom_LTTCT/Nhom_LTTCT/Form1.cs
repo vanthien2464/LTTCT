@@ -31,5 +31,13 @@ namespace Nhom_LTTCT
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = txtDangNhap.Text;
+            string password = txtMK.Text;
+            if (username == "admin" && password == "admin")
+                MessageBox.Show("Login successful");
+        }
     }
 }

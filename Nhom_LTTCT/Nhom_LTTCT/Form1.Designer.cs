@@ -49,7 +49,7 @@
             // txtDangNhap
             // 
             this.txtDangNhap.Location = new System.Drawing.Point(156, 43);
-            this.txtDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDangNhap.Margin = new System.Windows.Forms.Padding(2);
             this.txtDangNhap.Name = "txtDangNhap";
             this.txtDangNhap.Size = new System.Drawing.Size(128, 20);
             this.txtDangNhap.TabIndex = 1;
@@ -68,7 +68,7 @@
             // txtMK
             // 
             this.txtMK.Location = new System.Drawing.Point(156, 98);
-            this.txtMK.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMK.Margin = new System.Windows.Forms.Padding(2);
             this.txtMK.Name = "txtMK";
             this.txtMK.PasswordChar = '$';
             this.txtMK.Size = new System.Drawing.Size(128, 20);
@@ -82,6 +82,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Đăng Nhập";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -93,7 +94,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtDangNhap);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
