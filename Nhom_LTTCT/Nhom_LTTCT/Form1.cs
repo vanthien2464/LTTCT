@@ -26,5 +26,10 @@ namespace Nhom_LTTCT
         {
 
         }
+
+        private void txtDangNhap_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
